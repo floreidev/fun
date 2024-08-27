@@ -1,0 +1,16 @@
+
+import Model from '@src/core/base/Model';
+import IModelData from '@src/core/interfaces/IModelData';
+
+interface I#name#Data extends IModelData {
+    
+}
+
+export default class #name# extends Model<I#name#Data> {
+
+    public collection = '#collection#';
+
+    fields: string[] = [
+
+    ]
+}

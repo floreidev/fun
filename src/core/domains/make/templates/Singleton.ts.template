@@ -1,0 +1,15 @@
+import Singleton from "@src/core/base/Singleton";
+
+export interface I#name#Config {
+    /**
+    * Note: Your service config most likely exists in @src/config 
+    * Update this interface or replace it with the exported config object. 
+    */
+}
+
+export class #name# extends Singleton<I#name#Config> {
+
+    constructor(config: I#name#Config) {
+        super(config)
+    }
+}

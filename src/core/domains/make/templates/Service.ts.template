@@ -1,0 +1,15 @@
+import Service from "@src/core/base/Service";
+
+export interface I#name#Config {
+    /**
+    * Note: Your service config most likely exists in @src/config 
+    * Update this interface or replace it with the exported config object. 
+    */
+}
+
+export class #name# extends Service<I#name#Config> {
+
+    constructor(config: I#name#Config) {
+        super(config)
+    }
+}
